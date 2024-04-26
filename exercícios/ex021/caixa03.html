@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Borda</title>
+    <style>
+        h1 {
+            border: 20px solid black transparent;
+            padding: 10px;
+            border-image-source: url(borda.png);
+            border-image-slice: 27;
+            border-image-repeat: repeat;
+
+            border-image: url(borda.png)
+            27 repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda</h1>
+</body>
+</html>
